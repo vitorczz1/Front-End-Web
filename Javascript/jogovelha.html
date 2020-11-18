@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+<head>
+ 
+  <meta charset = "utf-8"/> 
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="javascript.js"></script>
+
+  <title> Jogo da Velha </title>
+ 
+</head>
+
+<body onload = "ajustetab();verifvez(jogador)">
+ 
+<div class = "principalgame">
+  <header id = "cabecalho">
+  
+  <img src = "logo_ft.png" alt="Logo da FT" class = "ft">
+  <img src = "logo_unicamp.png" alt="Logo da Unicamp" class = "unicamp">
+  
+  </header> <br/>
+  
+<h1> Jogo da Velha </h1> 
+ 
+ <div id = "jogojavascript">
+  <table class="tabuleiro">
+ 
+   <tr>
+     <td id="cel11" class="quadrado" onclick="jogada(this.id);verificaganhou();verifvez(jogador)"></td>
+     <td id="cel12" class="quadrado" onclick="jogada(this.id);verificaganhou();verifvez(jogador)"></td>
+     <td id="cel13" class="quadrado" onclick="jogada(this.id);verificaganhou();verifvez(jogador)"></td>
+   </tr>
+     
+   <tr>
+    <td id="cel21" class="quadrado" onclick="jogada(this.id);verificaganhou();verifvez(jogador)"></td>
+    <td id="cel22" class="quadrado" onclick="jogada(this.id);verificaganhou();verifvez(jogador)"></td>
+    <td id="cel23" class="quadrado" onclick="jogada(this.id);verificaganhou();verifvez(jogador)"></td>
+   </tr>
+     
+   <tr>
+    <td id="cel31" class="quadrado" onclick="jogada(this.id);verificaganhou();verifvez(jogador)"></td>
+    <td id="cel32" class="quadrado" onclick="jogada(this.id);verificaganhou();verifvez(jogador)"></td>
+    <td id="cel33" class="quadrado" onclick="jogada(this.id);verificaganhou();verifvez(jogador)"></td>
+   </tr> 
+     
+  </table> <br/>
+
+ </div>
+ 
+ <p id = "vez"></p>
+
+</div>
+
+</body>
+
+</html>

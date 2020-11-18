@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang = "pt-br">
+
+<head>
+ 
+  <meta charset = "utf-8"/> 
+
+  <link rel="stylesheet" href="style.css">
+
+  <title> Login </title>
+ 
+</head>
+
+<body onload="esconde()">
+ 
+<div id = "principal">
+  <header id = "cabecalho">
+  
+  <img src = "logo_ft.png" alt="Logo da FT" class = "ft">
+  <img src = "logo_unicamp.png" alt="Logo da Unicamp" class = "unicamp">
+  
+  </header> <br/>
+  
+<h1> Cadastro </h1> 
+ 
+ <div id = "campos">
+  <form action = "cadastro.html">
+    <label for = "nome"> Nome: </label>
+    <input type = "text" name = "nome" id ="nome" placeholder="Nome completo"/> <br/> <br/>
+
+    <label> RA: </label>
+    <input type = "number" name = "ra" id = "ra" placeholder="Nº Registro acadêmico"/> <br/> <br/>
+
+    <label for = "idade"> Idade: </label>
+    <input type = "number" name ="idade" id = "idade" placeholder="Anos de idade"/>  <br/> <br/>
+
+    <label for = "endereco"> Endereço: </label>
+    <input type = "text" name = "endereco" id = "endereco" placeholder="Rua, Avenida"/> <br/> <br/>
+
+    <label for = "telefone"> Telefone: </label>
+    <input type = "text" name = "telefone" id = "telefone" placeholder="Telefone móvel, fixo"/> <br/> <br/>
+
+    <label for = "email"> E-mail: </label>
+    <input type = "text" name = "email" id = "email" placeholder="Email"/> <br/> <br/>
+
+    <label for = "sexo"> Sexo: </label>
+    <select name="sexo" id="sexo">
+      <option value="">Selecione seu sexo</option>
+      <option value="Masculino">Masculino</option>
+      <option value="Feminino">Feminino</option>
+    </select> <br/><br/>
+
+    <input type = "submit" value = "Cadastrar" id="btnCadastrar"/> 
+
+    <input type = "button" value = "Listar alunos cadastrados" id="btnListarAlunos" onclick="tabela()"/> <br/> <br/>
+  </form>
+</div>
+
+<div id="cadastrados">
+ <h2> Aluno(s) Cadastrados:  </h2>
+
+ <table id="tabela_aluno">
+
+</table>
+
+</div>
+</div>
+
+<script src="javascript.js"></script>
+
+</body>
+
+</html>
