@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+<head>
+ 
+  <meta charset="utf-8"/> 
+
+  <meta name = "index" content = "HTML"/>
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>SI401A - Programação Web</title>
+ 
+</head>
+
+<body>
+
+  <h1> Minha primeira pagina Web! </h1> <br/>
+  <p> Oi</p>
+
+ <!-- H1 
+      <img src = "www.google.com.br" alt = "Erro"/>
+      <table> <table border = "1">
+       <caption> legenda ou titulo
+       <th> cabeçalho
+       <tr> linhas
+       <td> celulas
+
+       <ul> unordered
+         <li> item
+
+       <ol> ordered
+         <li> item
+
+      <h2 id = "cid_4">Totorri</h2>
+      <a href = "#cid_4"> 1. Tottori </a> 
+     
+      <a href = "https://www.dac.unicamp.br/portal/caderno-de-horarios/2019/2/S/G/FT/SI401"> Ementa </a>
+
+      <iframe>
+ -->
+
+
+<!-- <script>
+     <style>
+
+     <meta>
+
+     <div>
+
+
+
+-->
+
+  
+
+
+
+
+</body>
+
+
+</html>
